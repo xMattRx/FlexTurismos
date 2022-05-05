@@ -53,6 +53,7 @@ header ul li a{
   align-items: center;
   display: flex;
   justify-content: space-around;
+  margin-bottom: 92px;
 }
 .somos_p{
   margin-top: 120px;
@@ -80,4 +81,117 @@ header ul li a{
   width: 570px;
   margin-bottom: 30px;
   
+}
+.servicos{
+  background-color: #122A57;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.servicos .container{
+  width: 1020px;
+}
+
+.servicos div h2{
+  font-size: 48px;
+  margin-top: 76px;
+  margin-bottom: 105px;
+  text-align: left;
+}
+.servicos_tipos{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-bottom: 70px;
+}
+.servicos_tipos p {
+  font-weight: bold;
+  margin-top: 42px;
+  margin-bottom: 43px;
+}
+.servicos_tipos div a{
+  background-color: white;
+  color: #122A57;
+  font-weight: bold;
+  padding:15px 52px 14px 52px;
+  box-shadow: 0px 4px 4px #FFFFFF;
+border-radius: 30px;
+}
+.planos{
+  display: flex;
+  justify-content: center;
+}
+.planos .container{
+  display: flex;
+  flex-direction: column;
+  width: 1020px;
+}
+.planos .container h2{
+  color: black;
+  font-size: 48px;
+  margin-top: 104px;
+}
+.planos_tipos{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.plano{
+  border: 7px solid #122A57;
+  display: flex;
+  flex-direction: column;
+  
+  margin: 0px 34px;
+  justify-content: space-between;
+  padding: 47px 39px 30px 43px;
+  width: 304px;
+}
+.plano h3{
+  font-size: 36px;
+  position: relative;
+  text-align: center;
+}
+.plano h3:after{
+  content: "";
+  background-color: #122A57;
+  display: block;
+  left: -20px;
+  bottom: -15px;
+  height: 4px;
+  position: absolute;
+  width: 220px;
+}
+.plano a{
+  background-color: #122A57;
+  color: #FFF;
+  padding: 12px 49px 12px 46px;
+  text-align: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 28px;
+}
+.plano ul{
+  list-style-type: square;
+  font-size: 18px;
+}
+.plano ul li::before{
+  color:rgb(23, 23, 93);
+  height: 10px;
+  width: 10px;
+}
+footer{
+  align-items: flex-end;
+  background-color: #122A57;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  height: 111px;
+  margin-top: 217px;
+  padding-bottom: 32px;
+  padding-left: 145px;
+  padding-right: 145px;
 }
